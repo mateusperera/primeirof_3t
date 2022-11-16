@@ -4,14 +4,37 @@
     padding: 10px;
     border-radius: 25px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 6px 6px rgb(112, 247, 229);
+}
+.calculadoraESG{
+    background: rgb(8, 181, 187);
+    width: 200px;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 6px 6px rgb(112, 247, 229);
 }
 .calculadora input {
     background: rgb(187, 82, 173);
     color: rgb(2, 2, 2);
 }
+.calculadoraESG input {
+    background: pink;
+    color: yellow;
+    margin: 3px;
+    width: 50px;
+}
+calciladora input:focus {
+    background:red;
+    color: blue
+}
 #spTotal {
     background: black;
-    color: rgb(223, 223, 222);
+    color: rgb(201, 201, 37);
     padding: 3px;
     border-radius: 10px;
 }
@@ -35,7 +58,7 @@
     display: none;
 }
 
-h5 {
+h3 {
     color: rgb(0, 0, 0);
 }
 
